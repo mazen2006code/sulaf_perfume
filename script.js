@@ -19,6 +19,6 @@ cart.forEach(item=>{
 message+=item.name+" - "+item.price+" جنيه%0A";
 });
 
-window.open("https://wa.me/20507550512?text="+message);
+window.open("https://wa.me/201507550512?text="+message);
 
 }
