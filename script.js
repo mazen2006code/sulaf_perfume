@@ -1,20 +1,5 @@
 let cart = [];
-function addToCart(name, price, qtyId){
 
-let quantity = document.getElementById(qtyId).value;
-
-cart.push({
-name:name,
-price:price,
-qty:quantity
-});
-
-document.getElementById("cart-count").innerText = cart.length;
-
-alert("تم إضافة المنتج للسلة");
-
-}
-function addToCart(name,price){
 
 cart.push({
 name:name,
